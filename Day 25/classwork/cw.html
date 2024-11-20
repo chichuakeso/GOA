@@ -1,0 +1,41 @@
+<!-- შექმენით სარეგისტრაციო ფორმა სადაც მომხმარებელმა უნდა შეიყვანოს სახელი გვარი, ემაილი, პაროლი, გაიმეოროს პაროლი, ტელეფონის ნომერი და გენდერი, გამოიყენეთ label ები და დააკავშირეთ ისინი სწორად input ებს, ასევე გამოიყენეთ ის ინფუთის ატრიბუტები რაც აქამდე ვისწავლეთ-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+    <label for="name">name:</label>
+    <input id="name" type="text" placeholder="name" name="name" value="kesaria">
+    <br><br>
+    <label for="surename">surename:</label>
+    <input id="surename" type="text" placeholder="surename" name="surename" value="chichua">
+    <br><br>
+    <label for="email">email:</label>
+    <input id="email" type="email" placeholder="email" name="email" value="kesariachichua@gmail.com">
+    <br><br>
+    <label for="password">password:</label>
+    <input id="password" type="password" placeholder="password" name="password" value="12345">
+    <br><br>
+    <label for="password2">confirm password:</label>
+    <input id="password2" type="password" placeholder="confirm password" name="confirm password" value="12345">
+    <br><br>
+    <label for="number">phone number:</label>
+    <input id="number" type="tel" placeholder="phone number" name="phone num" value="555555555">
+    <br><br>
+    <label for="gender">gender:</label>
+    <br>
+    <label for="gender">female:</label>
+    <input type="radio" id="gender" name="gender_female">
+    <br>
+    <label for="gender">male:</label>
+    <input type="radio" id="gender" name="gender_male">
+    <br><br>
+    <input type="submit">
+    <br><br>
+    <input type="reset">
+</body>
+</html>
