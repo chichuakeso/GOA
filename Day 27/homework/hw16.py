@@ -3,25 +3,8 @@
 name = ["keso", "giorgi", "ana","elene", "mariami"]
 
 
-for element in name:
-    if element == "keso":
-        print(len(element))
-
-for element in name:
-    if element == "giorgi":
-        print(len(element))
-
-for element in name:
-    if element == "ana":
-        print(len(element))
-
-for element in name:
-    if element == "elene":
-        print(len(element))
-
-for element in name:
-    if element == "mariami":
-        print(len(element))
+for i in range(len(name)):
+    print((name[i]), len(name[i]))
 
 
 
