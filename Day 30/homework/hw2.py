@@ -3,6 +3,8 @@
 num = [1, 2, 3, 4, 5]
 
 def add(num):
-    return sum(num)
-
+    sum = 0
+    for element in num:
+        sum += element
+    return sum
 print(add(num))
