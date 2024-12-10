@@ -1,0 +1,13 @@
+.true {
+    color: brown;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+}
+
+#yes {
+    color: chocolate;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+}

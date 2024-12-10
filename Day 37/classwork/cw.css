@@ -1,0 +1,17 @@
+.alien {
+    color: brown;
+    background-color: chartreuse;
+    font-size: 40px;
+}
+
+#stage {
+    color: aquamarine;
+    background-color: blue;
+    font-size: 30px;
+}
+
+#lol {
+    color: coral;
+    background-color: darkgoldenrod;
+    font-size: 20px;
+}
