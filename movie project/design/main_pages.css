@@ -1,0 +1,151 @@
+
+
+header {
+    background-color: brown;
+    width:100%;
+    height:160px;
+    padding: 20px;
+    border-radius: 15px; 
+    width: 1300px; 
+}
+
+#rate_head {
+    background-color: brown;
+    width:100%;
+    height:130px;
+    padding: 20px;
+    border-radius: 15px; 
+    width: 1300px; 
+}
+
+.rate {
+    text-align: center;
+    color: lavender;
+}
+
+#open {
+    background-color: brown;
+    width:100%;
+    height:130px;
+    padding: 20px;
+    border-radius: 15px; 
+    width: 1300px; 
+}
+
+#open button {
+    text-align: center;
+    font-size: 30px;
+}
+
+ p {
+    color: lavender;
+    font: italic;
+}
+
+h2 {
+    color: lavender;
+}
+
+body {
+    background-color: rgb(80, 25, 25);
+    width:100%;
+    height:100%
+}
+
+#sitename {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: oblique;
+    text-align: right;
+}
+
+#back{
+    font-size: 15px;
+    background-color: brown;
+    color: cornsilk;               
+    border-radius: 15px;
+}
+
+#rating {
+    background-color: brown;
+    color: cornsilk;
+    font-size: 16px;               
+    border-radius: 15px;
+}
+
+#genres {
+    color: rgb(66, 10, 10);
+    text-align: left;
+    font-size: 19px;
+    font:bold;
+    height:25px;
+    padding: 20px;
+    border-radius: 15px; 
+    width: 70px; 
+    background-color: #d6c0bc;
+    border:none;
+    background-color: lavender;
+    border-radius: 15%;
+}
+
+h1 {
+    color: rgb(231, 194, 194);
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+nav {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(88, 18, 18);
+    background-color: #d6c0bc;
+    padding: 20px;
+    border-radius: 15px; 
+    width: 175px; 
+    
+}
+
+.movies {
+        display:grid;
+        grid-template-columns: repeat(6, 1fr); 
+        gap: 16px;
+        outline: 100px;
+        outline-color: rgb(102, 10, 114);
+        padding: 20px;
+        border-radius: 15px; 
+        width: 50px; 
+}
+  
+
+button {
+    background-color: lavender;
+}
+
+
+h3 {
+    color: lavender;
+    display: grid;
+        grid-template-columns: repeat(8, 1fr); 
+        gap: 16px;
+}
+
+img {
+    position: relative;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  border-radius: 15px; 
+}
+
+#pics {
+    background-color: rgb(97, 31, 31);
+    width:1400px;
+}
+
+ul {
+    border:none;
+    background-color: lavender;
+    border-radius: 15%;
+
+}
+

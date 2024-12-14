@@ -1,0 +1,9 @@
+#parents{
+    height:1000px;
+    width:1000px;
+}
+
+#child{
+    height:25%;
+    width:25%;
+}
