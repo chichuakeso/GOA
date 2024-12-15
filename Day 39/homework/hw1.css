@@ -1,0 +1,55 @@
+.hello {
+    text-align: right;
+    text-decoration: wavy underline green;
+}
+
+.world {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.eq {
+    text-align: left;
+    color: red;
+}
+
+.yes {
+    text-align: left;
+}
+
+.goal {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.oriented {
+    text-align: right;
+    text-decoration: dotted line-through green;
+}
+
+.academy {
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.is {
+    text-align: left;
+    text-decoration: overline;
+}
+
+.the {
+    color: green;
+    text-align: right;
+    text-decoration: overline green;
+}
+
+.best {
+    color: grey;
+    text-align: center;
+    text-decoration: overline grey;
+}
+
+.one {
+    text-align: right;
+    text-decoration: dotted underline green;
+}
