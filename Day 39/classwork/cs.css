@@ -1,0 +1,34 @@
+.one {
+    text-decoration: underline red;
+    color: chartreuse;
+}
+
+.two {
+    text-decoration: overline yellow;
+    color: coral;
+}
+
+.three{
+    text-decoration: line-through blue;
+    color: blueviolet;
+}
+
+.four {
+    text-decoration: underline overline pink;
+    color: cyan;
+}
+
+.five{
+    text-decoration: overline line-through olivedrab;
+    color: dimgray;
+}
+
+.six {
+    text-decoration: underline line-through goldenrod;
+    color: darkseagreen;
+}
+
+.seven {
+    text-decoration: underline overline line-through hotpink;
+    color: darkolivegreen;
+}
