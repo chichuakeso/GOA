@@ -1,0 +1,26 @@
+.red {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.green{
+    color: green;
+    font-size: 24px;
+    font-style: italic;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
