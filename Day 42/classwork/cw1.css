@@ -1,0 +1,23 @@
+button {
+    background-color: brown;
+    color: beige;
+    width:50px;
+    height:20px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: chocolate;
+    color:chartreuse;
+    width: 70px;
+    height:20px;
+    border-radius: 30px;
+}
+
+button:active{
+    background-color: forestgreen;
+    color:palevioletred;
+    width:90px;
+    height:50px;
+    border-radius: 30px;
+}

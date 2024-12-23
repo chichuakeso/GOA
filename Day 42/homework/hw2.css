@@ -1,0 +1,26 @@
+a:link{
+    color: lightblue;
+}
+
+a:visited{
+    color: rgb(177, 135, 177);
+}
+
+a:hover{
+    color: rgb(235, 136, 136);
+    background-color: rgba(233, 230, 230, 0.37);
+}
+
+a:active{
+    background-color: rgba(56, 56, 56, 0.562);
+    font-size: 15px;
+}
+
+
+.alnst:link{
+    color: black;
+}
+
+.alnst:visited{
+    color: rgb(58, 58, 58);
+}
