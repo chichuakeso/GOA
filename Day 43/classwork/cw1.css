@@ -1,0 +1,23 @@
+.ul1 {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.ul2 {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.ul3 {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ul4 {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.ul5 {
+    list-style: disc inside url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ08nCwfGv5gCl1JgJBaEJTJD9UOM6rAZoMw&s);
+}

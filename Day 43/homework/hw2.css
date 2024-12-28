@@ -1,0 +1,18 @@
+table {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgb(226, 226, 226);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(73, 223, 185);
+    color:white ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+td{
+    padding-left: 10px;
+    color:grey;    
+    background-color: white;
+}

@@ -1,0 +1,18 @@
+.form {
+    background-color: rgb(152, 238, 152);
+    border: 2px solid rgb(120, 223, 120);
+    border-radius: 30px;
+    height: 180px;
+    width: 200px;
+    padding: 20px;
+}
+
+input {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(189, 250, 97);
+    border-style: double;
+    border-color: rgb(141, 196, 60);
+    border-radius: 20px;
+    outline: none;
+}

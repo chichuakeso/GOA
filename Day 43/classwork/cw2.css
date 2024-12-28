@@ -1,0 +1,17 @@
+input[type = "text"] {
+    border: 3px dotted rgb(154, 236, 154);
+    background-color: rgb(189, 240, 189);
+    outline: none;
+}
+
+input[type = "password"] {
+    border: 2px dashed rgb(240, 128, 128);
+    background-color: rgb(238, 166, 166);
+    outline: none;
+}
+
+input[type = "email"] {
+    border: 3px double rgb(233, 148, 114);
+    background-color: rgb(247, 178, 151);
+    outline: none;
+}

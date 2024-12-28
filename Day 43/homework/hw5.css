@@ -1,0 +1,29 @@
+button {
+    color: rgb(202, 71, 71);
+    background-color: rgb(122, 29, 29);
+    border-color: rgb(97, 23, 23);
+    border-radius: 20px;
+}
+
+button:hover {
+    color: rgb(71, 202, 93);
+    background-color: rgb(29, 122, 34);
+    border-color: rgb(23, 97, 39);
+    border-radius: 20px;
+}
+.name {
+    color: plum;
+    background-color: purple;
+    border-color: rgb(83, 4, 83);
+    border-radius: 20px;
+    border-style: dotted;
+    outline: none;
+}
+.surename {
+    color: rgb(160, 161, 221);
+    background-color: rgb(13, 0, 128);
+    border-color: rgb(32, 4, 83);
+    border-radius: 20px;
+    border-style: dotted;
+    outline: none;
+}

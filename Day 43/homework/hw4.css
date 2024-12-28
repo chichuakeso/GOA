@@ -1,0 +1,23 @@
+input[type = "password"] {
+    color: crimson;
+    background-color: rgb(231, 84, 113);
+    border-color: brown;
+    outline: none;
+    border-style: dashed;
+    box-shadow: 5px 2px 4px  brown;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+input[type = "email"] {
+    color: rgb(20, 220, 47);
+    background-color: rgb(84, 231, 96);
+    border-color: rgb(42, 165, 69);
+    outline: none;
+    border-style: double;
+    box-shadow: 5px 2px 4px  rgb(42, 165, 83);
+    padding: 1px;
+    margin: 5px;
+    border-radius: 10px;
+}

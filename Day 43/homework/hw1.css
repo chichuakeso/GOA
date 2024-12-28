@@ -1,0 +1,22 @@
+.head {
+    color: white;
+    background-color: rgb(16, 150, 83);
+}
+
+table {
+    border-collapse: collapse;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+    border-bottom-color: rgb(16, 150, 83);
+    border-bottom-style: groove;
+}
+
+.diff {
+    background-color: rgb(219, 218, 218);
+    color: rgb(16, 150, 83);
+}
+
+th, td{
+    padding-left:10px;
+    text-align: left;
+}
