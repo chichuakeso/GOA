@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 555px;
+    width: 35%;
+}
+
+img{
+    border-radius: 50%;
+    width: 20%;
+    position: relative;
+    left: 170px;
+    top: 40px;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 135px;
+    top: 40px;
+}
+
+.place{
+    color: hsl(75, 94%, 57%);
+    position: relative;
+    left: 132px;
+    top: 10px;
+}
+
+.text{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 90px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    height:50%;
+    padding-left:10%;
+    padding-right:10% 
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    height:40px;
+    margin: 6px;
+    cursor:pointer;
+    border-radius:10px;
+    border-style:none;
+    color:hsl(0, 0%, 100%);
+    font-weight:700;
+}

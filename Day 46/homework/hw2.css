@@ -1,0 +1,146 @@
+
+body{
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px
+}
+
+.info {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: auto;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+img {
+    border-radius: 10px;
+    width: 85vh;
+    height: 40vh;
+}
+
+h1 {
+    color: hsl(332, 51%, 32%);
+}
+
+.main {
+    color: black;
+    padding: 20px;
+    font-size: 35px;
+} 
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    width: 90vh;
+    height: 22vh;
+}
+
+.preptime{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+    position: relative;
+    bottom: 120px;
+}
+
+.pt{
+    margin: 20px;
+}
+
+.oml{
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+}
+
+.text1{
+    position: relative;
+    bottom: 35px;
+    left: 16px;
+    font-size: 1.3vw;
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+}
+b{
+    color: hsl(24, 5%, 18%);
+}
+
+.ing {
+    position: relative;
+    left: 30px;
+    bottom: 150px;
+}
+
+.text2 {
+    margin: 10px;
+}
+
+.inst {
+    position: relative;
+    bottom: 140px;
+}
+.inst1{
+    position: relative;
+    left: 30px;
+}
+.ol{
+    position: relative;
+    left: 5px;
+}
+
+.neu{
+    position: relative;
+    top: 30px;
+}
+
+.neu1{
+    color: hsl(332, 51%, 32%);
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.text3{
+    position: relative;
+    left: 30px;
+}
+
+td{
+    color: hsl(30, 10%, 34%);
+}
+.diff{
+    color: hsl(332, 51%, 32%);
+}
+
+tr{
+    border-bottom-style:groove;
+    border-width: 1px;
+}
+
+table{
+    border-collapse: collapse;
+    width:560px;
+    margin-left:30px;
+    border-style:none;
+    border-color: hsl(30, 10%, 34%);;
+}
+td{
+    padding-left:30px;
+    border-style:none;
+    height:30px;
+}
+tr:nth-child(4){
+    border-bottom-style: none;
+}
