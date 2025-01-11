@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pbs.twimg.com/media/Eqo-wmZXUAA0V1b?format=jpg&name=large);
+}
+
+h1{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

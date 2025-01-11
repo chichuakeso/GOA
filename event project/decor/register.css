@@ -1,0 +1,131 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/e2/6e/f7/e26ef7a4f4c62e2400aebd7604a89ed7.jpg);
+    background-size: cover;
+}
+
+.all{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30vh;
+}
+ul {
+    list-style-type: none;
+}
+
+.form{
+    box-shadow: 0px 0px 10px rgb(58, 29, 187);
+    border-radius: 20px;
+    padding: 50px;
+    backdrop-filter: blur(5px);
+}
+
+.text{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+
+}
+
+.line{
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+
+}
+
+label {
+    color: white;
+}
+
+.input{
+    position: relative;
+    bottom: 80px;
+}
+
+input{
+    outline: none;
+
+    border-color: rgb(240, 104, 199);
+    color: rgb(255, 61, 93);
+    box-shadow: 0px 0px 10px rgb(255, 196, 237);
+}
+
+button{
+    padding: 1px 4px;
+    border-radius: 30px;
+}
+
+.enter{
+    border-radius: 30px;
+    padding: 5px 40px;
+}
+
+.enter2{
+    border-radius: 30px;
+    padding: 5px 40px;
+    position: relative;
+    left: 50px;
+    background-color: rgb(253, 212, 219);
+    border-style: 50px double;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(253, 139, 139);
+}
+
+footer{
+    position: relative;
+    bottom: 50px;
+}
+.button{
+    background: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-color: white;
+    color: white;
+}
+
+.one{
+    position: relative;
+    right: 70px;
+    top: 1px;
+}
+
+.two{
+    position: relative;
+    right: 15px;
+    top: 25px;
+}
+
+.three{
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+.four{
+    position: relative;
+    top: 60px;
+    left: 170px;
+}
+
+.button:hover{
+    padding: 2px 10px;
+}
+
+.enter2:hover{
+    background-color: rgb(224, 171, 180);
+    padding: 6px 41px;
+}
+
+.enter2:active{
+    background-color: rgb(245, 200, 207);
+    padding: 5px 40px;
+}
+
+input:hover{
+    background-color: rgb(230, 228, 228);
+}

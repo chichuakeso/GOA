@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+    align-items: center;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 75vh;
+    height: 91vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    border: 1px solid black;
+}
+
+.pic{
+    border-radius: 10px;
+    width: 440px;
+    height: 240px;
+    position: relative;
+    left: 23px;
+    top: 20px;
+}
+
+.button{
+     width: 100px;
+     height: 30px;
+     border-radius: 5px;
+     border: none;
+     position: relative;
+     top: 40px;
+     left: 20px;
+     background-color: hsl(47, 88%, 63%);
+}
+
+.text{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+h1{
+    position: relative;
+    top: 22px;
+    left: 20px;
+}
+
+.pic2{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.p{
+    color: hsl(0, 0%, 42%);
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+h3{
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+}

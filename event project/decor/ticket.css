@@ -1,19 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .ticket {
-    background-color: rgb(212, 192, 134); 
+    background-color: rgb(124, 182, 136); 
     color: rgb(0, 0, 0);
     border-radius: 30px;
     width: 70vh;
-    height: 20vh;
+    height: 30vh;
     text-align: center;
+    box-shadow: 10px 10px;
+    position: relative;
+    top: 50px;
+    left: 90px;
 }
 
+
+
 a {
-    color: rgb(248, 251, 253);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 170px;
+    bottom: 130px;
+
 }
+
 
 body {
     background-color: rgba(244, 245, 199, 0.753);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/2d/cc/95/2dcc9574a448303e98da251ef67cc5d8.jpg);
+    background-size: cover;
 }
+
+h1 {
+    font-family: "Kanit", serif;
+}
+
+.text{
+    position: relative;
+    bottom: 10px;
+}
+
+.arrow{
+    position: relative;
+}
+
+.line{
+    position: relative;
+    bottom: 50px;
+}
+.inv {
+    position: relative;
+    bottom: 80px;
+}
+
+.button{
+    padding: 10px 5px;
+}
+
