@@ -1,0 +1,1 @@
+#shemdeg gakvetilamde dro mogvces cuz dzneli iyo

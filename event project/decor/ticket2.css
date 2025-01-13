@@ -22,7 +22,7 @@ section {
 
 .code {
     position: relative;
-    top: 50px;
+    top: 45px;
     right: 420px;
 }
 
@@ -35,13 +35,28 @@ h1{
 
 .button{
     border-radius: 20px;
-    height: 20px;
+    height: 30px;
     width: 90px;
     position: relative;
-    top: 355px;
+    top: 352px;
     right: 600px;
     background-color: rgb(0, 0, 0);
     color: white;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    height: 32px;
+    width: 92px;
+}
+
+.button:active{
+    background-color: rgb(212, 210, 210);
+    color: rgb(34, 34, 34);
+    height: 30px;
+    width: 90px;
 }
 
 .link {
@@ -83,4 +98,14 @@ a {
 
 button{
     font-family: "Kanit", serif;
+}
+
+.cd{
+    position: relative;
+    left: 22px;
+}
+
+.text{
+    position: relative;
+    bottom: 10px;
 }

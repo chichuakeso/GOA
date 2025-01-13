@@ -1,0 +1,117 @@
+body{
+    background-image: url(https://media.discordapp.net/attachments/1325870510587777095/1327989000958378116/Untitled49_20250112171405.png?ex=678511a2&is=6783c022&hm=054c07a473ba7284f250ca45365dcf1e3fc3e8502cad08804fd893214d27cc5d&=&format=webp&quality=lossless);
+    background-size: cover;
+    background-position: 0px -20px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-size: 1.4rem;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.hack{
+    font-size: 39px;
+    position: relative;
+    left: 250px;
+    bottom: 47px;
+    color: rgb(223, 238, 227);
+}
+
+
+.button{
+    background-color: rgb(167, 201, 174); 
+    padding: 5px 20px;
+    border-radius: 30px;
+    border-color: rgb(141, 172, 147); 
+    color: rgb(223, 255, 229); 
+}
+
+.button:hover{
+    background-color: rgb(156, 185, 162); 
+    padding: 6px 21px;
+    border-radius: 30px;
+    border-color: rgb(141, 172, 147); 
+    color: rgb(223, 255, 229); 
+}
+
+.button:active{
+    background-color: rgb(200, 226, 205); 
+    padding: 5px 20px;
+    border-radius: 30px;
+    border-color: rgb(141, 172, 147); 
+    color: rgb(223, 255, 229); 
+}
+
+
+.pic{
+    position: absolute;
+    left: 671px;
+    bottom: 19px;
+}
+img{
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+.one{
+    position: absolute;
+    top: 167px;
+    right: 670px;
+
+}
+
+.two{
+    background-color: rgb(215, 241, 221); 
+    padding: 5px 20px;
+    border-radius: 30px;
+    border-color: rgb(172, 204, 179); 
+    color: rgb(119, 148, 125); 
+}
+
+video {
+    border-radius: 10px;
+    position: absolute;
+    left: 389px;
+    top: 270px;
+    width: 580px;
+    height: 350px;
+    border: 2px solid #ffffff;
+    padding: 2px;
+    border-radius: 15px; 
+  }
+  
+  h3{
+    color: white;
+    position: absolute;
+    left: 569px;
+    top: 255px;
+  }
+
+  .two:hover{
+    background-color: rgb(196, 224, 203); 
+    padding: 6px 21px;
+    border-radius: 30px;
+    border-color: rgb(172, 204, 179); 
+    color: rgb(119, 148, 125); 
+}
+
+.two:active{
+    background-color: rgb(216, 240, 221); 
+    padding: 5px 20px;
+    border-radius: 30px;
+    border-color: rgb(172, 204, 179); 
+    color: rgb(119, 148, 125); 
+}

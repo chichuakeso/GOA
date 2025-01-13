@@ -1,1 +1,33 @@
-/*working on it*/
+body{
+    display:flex;
+    justify-content:space-between;
+    height:100vh;
+    background-color: brown;
+}
+
+h1{
+    font-size:50px;
+}
+
+img{
+    width:460px;
+}
+.p{
+    position:fixed;
+    text-align: center;
+    width: 500px;
+    top:200px;
+    right:200px;
+}
+
+button{
+    background-color: rgb(116, 25, 25);
+    border-radius: 20px;
+    border-color: rgb(189, 60, 60);
+}
+
+.pics{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
