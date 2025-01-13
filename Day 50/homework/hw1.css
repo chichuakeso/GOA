@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 7, 161);
+}
+
+.bg{
+    position: absolute;
+}
+
+.bg2{
+    width: 600px;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+}
+
+.logo{
+    opacity: 95%;
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    bottom: 550px;
+}
+
+.text{
+    position: absolute;
+    left: 710px;
+    bottom: 240px;
+    color: white;
+}
+
+button{
+    border-radius: 30px;
+    padding: 12px 50px;
+    color: rgb(112, 7, 161);
+    border: none;
+    position: relative;
+    top: 20px;
+    box-shadow: 1px 1px 10px rgb(49, 2, 49);
+}
+button:hover{
+    background-color: rgb(238, 100, 238);
+    color: white;
+}
+
+p{
+    position: relative;
+    top: 10px;
+}
+
+.icons{
+    color: white;
+    position: relative;
+    left: 490px;
+    top: 260px;
+}
+
+i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 200px;
+}
+
+i:hover{
+    color: rgb(240, 48, 240);
+}
