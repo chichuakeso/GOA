@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+div:hover{
+    transform: rotate(180deg) scale(1.5);
+}
