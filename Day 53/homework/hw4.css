@@ -1,0 +1,22 @@
+/*შექმენით ტექსტი, შემდეგ კი ანიმაციის მეშვეობით შეუცვალეთ ფერი, გამოიყენეთ @keyframes.*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    background-color: rgb(80, 255, 124);
+    border-radius: 40px;
+    animation: text 2s infinite;
+}
+
+@keyframes text{
+    from{
+        color: cornflowerblue;
+    }
+    to{
+        color: rgb(255, 223, 229);
+    }
+}

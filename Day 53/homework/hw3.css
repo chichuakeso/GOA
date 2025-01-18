@@ -1,0 +1,17 @@
+/*შექმენით მარტივი ანიმაცია, რომელიც 200x200 div-ს 360 გრადუსით გადმოატრიალებს, გამოიყენეთ @keyframes და rotate().*/
+
+div{
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    animation: turn 2s infinite;
+}
+
+@keyframes turn{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
