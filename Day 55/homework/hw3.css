@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 500;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color:  hsl(0, 0%, 81%);
+}
+
+.all{
+    padding: 30px;
+    max-width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 580px 250px 300px;
+    grid-template-rows: 300px 250px;
+    gap: 20px;
+}
+
+
+
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    color: white;
+}
+
+.daniel img{
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    border: 2px solid rgb(160, 140, 185);
+}
+
+.daniel p{
+    opacity: 50%;
+   position: relative;
+   left: 30px;
+   top: 20px;
+   font-size: 15px;
+}
+
+.daniel h1{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.daniel h5{
+    position: relative;
+    left: 84px;
+    bottom: 20px;
+    font-size: 16px;
+}
+
+.daniel h6{
+    opacity: 60%;
+    position: relative;
+    left: 88px;
+    bottom: 16px;
+}
+
+
+.jonathan{
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+.jonathan img{
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    border: 2px solid rgb(160, 140, 185);
+}
+.jonathan p{
+    opacity: 50%;
+   position: relative;
+   left: 10px;
+   top: 20px;
+}
+
+.jonathan h1{
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+}
+
+.jonathan h5{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    font-size: 16px;
+}
+
+.jonathan h6{
+    opacity: 60%;
+    position: relative;
+    left: 80px;
+    bottom: 16px;
+}
+
+
+.kira{
+    border-radius: 10px;
+    height: 575px;
+    background-color: white;
+    color: rgb(88, 88, 88);
+}
+
+.kira img{
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.kira p{
+    opacity: 50%;
+    position: relative;
+    top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.kira h1{
+    font-size: 20px;
+    position: relative;
+    left: 36px;
+}
+
+.kira h5{
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+    font-size: 16px;
+}
+
+.kira h6{
+    opacity: 60%;
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+}
+
+
+.jeanette{
+    border-radius: 10px;
+    background-color: white
+}
+
+.jeanette img{
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.jeanette p{
+    opacity: 50%;
+    position: relative;
+    top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.jeanette h1{
+    font-size: 20px;
+    position: relative;
+    left: 36px;
+}
+
+.jeanette h5{
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+    font-size: 16px;
+}
+
+.jeanette h6{
+    opacity: 60%;
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+}
+
+
+
+.patrick{
+    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.patrick img{
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    border: 2px solid rgb(160, 140, 185);
+}
+
+.patrick p{
+    opacity: 50%;
+   position: relative;
+   left: 20px;
+   top: 20px;
+   font-size: 13px;
+}
+
+.patrick h1{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.patrick h5{
+    position: relative;
+    left: 84px;
+    bottom: 20px;
+    font-size: 16px;
+}
+
+.patrick h6{
+    opacity: 60%;
+    position: relative;
+    left: 88px;
+    bottom: 16px;
+}
+
+
+.down{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    gap: 30px;
+}

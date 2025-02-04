@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Karla", serif;
 }
 
 #join{
@@ -86,8 +89,8 @@ body{
 }
 .text2{
     position: relative;
-    left: 40px;
-    top: 20px;
+    left: 45px;
+    top: 15px;
 }
 .why2{
     color: hsl(180, 41%, 79%);
