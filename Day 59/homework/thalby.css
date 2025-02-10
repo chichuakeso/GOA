@@ -8,6 +8,7 @@
 
 body{
     font-family: "Roboto", serif;
+    width: 100%;
 }
 
 header{
@@ -21,7 +22,7 @@ nav ul{
     display: flex;
     gap: 40px;
     list-style-type: none;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .icons{
@@ -35,5 +36,50 @@ nav ul{
 .part1{
     display: flex;
     gap: 150px;
+}
+
+section{
+    background-color: #F0EFEB;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70.31px;
+    width: 534px;
+}
+
+.pic1{
+    height: 521px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.text h1{
+    font-size: 60px;
+    width: 90%;
+}
+.text p{
+    width: 90%;
+    font-size: 24px;
+}
+.text button{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 17px;
 }
 

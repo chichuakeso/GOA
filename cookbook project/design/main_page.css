@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jacques+Francois+Shadow&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jacques+Francois+Shadow&family=Just+Another+Hand&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainpic{
+    background-image: url(../img/Rectangle\ 1.png);
+    height: 300px;
+    width: 100%;
+}
+
+body{
+    height: auto;
+    background-color: #181A1B;
+}
+
+header{
+    background-color: hsla(352, 59%, 47%, 1);
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: auto;
+}
+.heading{
+    font-family: "Just Another Hand";
+}
+
+.motto{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 100;
+    color: white;
+    border: 1px solid green;
+    width:400px
+}
+
+header img{
+    border-radius: 50%;
+}
+
+header h1{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 27.06422018348624vh;
+
+}
+
+footer h1{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+}
+
+.lag{
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.continents{
+    background-color: #181A1B;
+}
