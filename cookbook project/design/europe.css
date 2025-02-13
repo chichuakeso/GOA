@@ -10,9 +10,14 @@
 }
 
 body{
-    height: auto;
     background-image: url(../img/europebg.png);
-    background-size: cover;
+    background-size:cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -81,23 +86,30 @@ header h1{
     box-shadow: 1px 1px 10px rgb(138, 138, 138);
 }
 
-.countries p{
+.s p{
     color: white;
     font-size: 35px;
     font-family: "Jacques Francois Shadow", serif;
     padding: 25px;
 }
 
-.countries{
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    gap: 90px;
+.country-container{
     display: flex;
+    gap: 100px;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
 }
-
-.countries div{
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.s{
     width: 300px;
     height: 200px;
     background-repeat: no-repeat;
@@ -108,31 +120,49 @@ header h1{
     transition: 0.2s;
 }
 
-.countries div:hover{
+main a:hover{
     transform: scale(1.1);
 }
 
-.italypic{
+.italy{
     background-image: url(../img/italy.png);
 }
 
-.francepic{
+.france{
     background-image: url(../img/france.png);
 }
-.spainpic{
+.spain{
     background-image: url(../img/spain.png);
 }
 
 footer{
-    color: white;
     width: 100%;
     height: 100%;
     display: flex;
+    align-self: flex-end;
     justify-content: center;
     align-items: end;
-    padding: 70px;
+    color: white;
+    padding: 30px;
 }
 
 a{
     text-decoration: none;
+}
+
+@media (max-width:800px){
+    .one h1{
+        display: none;
+    }
+    .one{
+        width: auto;
+    }
+    .heading{
+        transform: translateX(-0%);
+    }
+    header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
