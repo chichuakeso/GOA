@@ -1,0 +1,21 @@
+.one{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.one div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1pc solid pink;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
