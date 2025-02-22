@@ -356,9 +356,11 @@ main{
     margin: 20px;
 }
 .bluelogos{
-    margin: 20px;
-    display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .bluelogos img{
     width: 40.8427791595459px;
@@ -383,6 +385,10 @@ main{
         flex-direction: column;
         width: 20%;
     }
+    .bluetext{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media(max-width:950px){
     .design img{
@@ -399,7 +405,12 @@ main{
     .designtext button{
         padding: 7.74px 20.27px 7.74px 20.27px;
     }
-
+    .blue{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media(max-width:890px){
@@ -442,6 +453,9 @@ main{
         width: 300px;
         justify-content: center;
         align-items: center;
+    }
+    .blue p{
+        font-size: 10px;
     }
 }
 
