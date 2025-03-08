@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/sansation');
 @import url('https://fonts.cdnfonts.com/css/sansation-light');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -108,8 +110,10 @@ main{
 }
 .hero-text-header{
     display: flex;
-    gap: 90px;
-
+    gap: 40px;
+    position: relative;
+    top: 20px;
+    right: 70px;
     text-align: left;
     flex-direction: column;
 }
@@ -140,6 +144,8 @@ main{
     display: flex;
     align-items: center !important;
     justify-content: center;
+    position: relative;
+    top: 40px;
 }
 .hero-text div{
     display: flex;
@@ -167,4 +173,26 @@ main{
     align-items: center;
     border-radius: 50%;
     background-color: #003478;
+}
+#car{
+    width: 1299px;
+    height: 639px;
+}
+
+.costum-header{
+    background-color: hsla(150, 2%, 19%, 1);
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    font-family: "Sen", serif;
+}
+.costum2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 30px;
 }
