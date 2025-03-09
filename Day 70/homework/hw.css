@@ -179,20 +179,423 @@ main{
     height: 639px;
 }
 
-.costum-header{
-    background-color: hsla(150, 2%, 19%, 1);
-    height: 68px;
+.custom{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: white;
-    font-size: 36px;
-    font-family: "Sen", serif;
+    text-align: center;
+    gap: 50px;
+    padding: 0px 0px 90px 0px;
 }
-.costum2{
+.heds{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.heds h1{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #303231;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Sansation', sans-serif;
+}
+.heds p{
+    color: #303231;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+.custom-card-container{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    gap: 90px;
+    width: 100%;
+}
+.custom-card{
+    width: 280px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 300px;
+    border: 1px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.custom-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.custom-card div h3{
+    font-size: 18px;
+    color: #233443;
+    font-weight: 600;
+    line-height: 21.78px;
+}
+.custom-card div p{
+    font-size: 18px;
+    color: #333333;
+    line-height: 21.78px;
+}
+.custom-card a{
+    color: #FF6645;
+    font-size: 14px;
+    font-weight: 500;
+}
+.custom-card-container hr{
+    border: 1px solid #BCBCBC;
+    height: 200px;
+}
+.custom-order{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.custom-order button{
+    padding: 10px 30px;
+    background-color: #003478;
+    border: 2px solid #003478;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    line-height: 21.78px;
+}
+.custom-order button:hover{
+    background-color: transparent;
+    color: #000;
+}
+.custom-order a{
+    color: #0276B3;
+}
+.custom-stats-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
+    justify-items: center;
+    gap: 20px;
+}
+.custom-stats-card{
+    width: 275px;
+    height: 142px;
+    border-radius: 10px;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.custom-stats-card p{
+    color: #233443;
+    font-size: 18px;
+    font-weight: 600;
+}
+.custom-stats-card h1{
+    color: #333333;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+
+
+.power{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 73px;
+    padding-bottom: 130px;
+}
+.power-header p{
+    padding: 0px 20px;
+}
+.power-sec-container{
+    width: 100%;
+    padding: 0px 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    align-items: center;
+}
+.power-sec{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,500px));
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+}
+.power-sec img{
+    width: 100%;
+    aspect-ratio:1;
+}
+.power-sec-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.power-sec-text h1{
+    font-size: 36px;
+    color: #303231;
+    font-weight: 400;
+    font-family: 'Sansation', sans-serif;
+}
+.power-sec-text p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #303231;
+}
+.power-sec-text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.power-sec-text-div div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.power-sec-text-div div i{
+    padding: 5px;
+    background-color: #3F6745;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+.gallery{
+    width: 100%;
+    height: auto;
+    background-image: url(../classwork/extra/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-bottom: 50px;
+}
+.gallery-top{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Sansation', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+.gallery-midle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.gallery-midle-img{
+    width: 1148px;
+    height: 468px;
+    position: relative;
+    z-index: 11;
+    background-position: center;
+    animation-name: PhotoChanger;
+    animation-iteration-count: infinite;
+    animation-duration:30s;
+}
+.gallery-arrow{
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.gallery-arrow:hover{
+    background-color: #fff;
+    color: #000;
+}
+.left{
+    transform: rotateY(180deg);
+}
+.gallery-bot{
+    width: 100%;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.gallery-bot img{
+    width: 100%;
+    aspect-ratio: 1;
+}
+.gallery-bot img{
+    cursor: pointer;
+}
+
+
+
+.pass{
+    height: auto;
+    position: relative;
+    padding: 0px 0px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.pass div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 60px;
+    width: 40%;
+    backdrop-filter: blur(200px);
+    box-shadow: 20px 5px 20px #ffffff98;
+    padding: 30px;
+    border-radius: 20px;
+}
+.pass img{
+    position: absolute;
+    z-index: -5;
+    right: -47%;
+    width: 1585px;
+    height: 740px;
+}
+.pass h1{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Sansation', sans-serif;
+    color: #303231;
+    line-height: 40.29px;
+}
+.pass p{
+    font-size: 18px;
+    line-height: 40.77px;
+    color: #333333;
+}
+.pass button{
+    padding: 10px 100px;
+    background-color: #003478;
+    border: 2px solid #003478;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    line-height: 21.78px;
+}
+.pass button:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #151515;
+    padding: 140px 140px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+    color: #fff;
+}
+.first-h1,.second-h1{
+    font-family: 'Sansation';
+    font-size: 54px;
+    font-weight: 400;
+}
+.second-h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.second-h1 span{
+    color: #848484;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 11;
+    gap: 50px;
+    text-align: left;
+}
+
+.footer-first{
+    width: 700px;
+}
+.footer-first p{
+    font-size: 18px;
+    line-height: 40.77px;
+}
+.footer-first button{
+    align-self: flex-start;
+    padding: 10px 100px;
+    background-color: #003478;
+    border: 2px solid #003478;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    line-height: 21.78px;
+}
+.footer-first button:hover{
+    background-color: transparent;
+}
+.first-holder{
+    position: relative;
+}
+.first-holder img{
+    transform: rotateY(180deg);
+    width: 1369px;
+    height: 584;
+    position: absolute;
+    right: -65%;
+    top: -60%;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-list .idk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    width: 60%;
+}
+.footer-list .idk ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-list hr{
+    border: 1px solid #2C2C2C;
+    width: 60%;
+}
+#ender{
     margin-top: 30px;
+    font-size: 12px;
+    color: #4F4F4F;
+    font-weight: 500;
 }
