@@ -15,6 +15,7 @@ function minus(){
 }
 
 function reset(){
-    h1[0].innerHTML = 0
+    counter = 0
+    h1[0].innerHTML = counter
     h1[0].style.color = "black"
 }
