@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+image{
+    width: 200px;
+}
+
+div{
+    border: 13px solid blue;
+    border-radius: 30px;
+    padding: 100px 90px;
+    background-color: rgba(231, 231, 231, 0.719);
+}
