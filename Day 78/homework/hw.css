@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 20px 40px;
+    background-color: rgb(250, 206, 191);
+    color: white;
+    font-weight: 900;
+    border-color: salmon;
+    border-radius: 5px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: navajowhite;
+}
+
+.card{
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgb(255, 126, 111);
+    border-radius: 30px;
+    background-color: rgba(238, 108, 94, 0.801);
+}
