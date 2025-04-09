@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #833b6d;
+    color: white;
+    height: 100vh;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f8cdee;
+    color: rgb(114, 58, 91);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e4afd7be;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #ff96c7;
+}
