@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    background-image: url(../extra/goaheader.jpg) ;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+}
+
+body{
+    background-image: url(../extra/bg2.png);
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+ul b{
+    color: rgb(97, 192, 97);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+main{
+    padding-top: 110px;
+    padding-bottom: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+#fb{
+    height: 40px;
+    width: 40px;
+}
+#yt{
+    height: 70px;
+    width: 90px ;
+}
+
+.fb{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.yt{
+    display: flex;
+    align-items: center;
+}
+
+label{
+    color: rgb(0, 0, 0);
+}
+
+form{
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+    background-color: rgb(111, 177, 81);
+    border-radius: 30px;
+    height: 80vh;
+    width: 50vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+input::placeholder{
+    color: rgb(44, 230, 84);
+}
+
+button{
+    padding: 10px 24px;
+    border-radius: 20px;
+    color: rgb(230, 44, 44);
+    background-color: black;
+    transition: 0.2s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+select{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: black;
+    color: rgb(44, 230, 84);
+}
