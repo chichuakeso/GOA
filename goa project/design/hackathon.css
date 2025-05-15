@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    background-image: url(../extra/goaheader.jpg) ;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+}
+
+body{
+    background-image: url(../extra/bg2.png);
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+ul b{
+    color: rgb(97, 192, 97);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+#fb{
+    height: 40px;
+    width: 40px;
+}
+#yt{
+    height: 70px;
+    width: 90px ;
+}
+
+.fb{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.yt{
+    display: flex;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+.pt1 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pt2 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pt3 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pt1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(111, 177, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 650px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+}
+.pt2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(111, 177, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 650px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+}
+.pt3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(111, 177, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 650px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(144, 255, 79);
+}
+
+@media (max-width: 888px){
+    header img{
+        display: none;
+    }
+    .pt1{
+        width: 500px;
+    }
+    .pt2{
+        width: 500px;
+    }
+    .pt3{
+        width: 500px;
+    }
+    .card{
+        height: 40vh;
+    }
+    button{
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 555px){
+    ul li{
+        font-size: 15px;
+    }
+    .pt1{
+        width: 400px;
+    }
+    .pt2{
+        width: 400px;
+    }
+    .pt3{
+        width: 400px;
+    }
+    main{
+        padding-top: 300px;
+        padding-bottom: 210px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        justify-content: center;
+    }
+}
+
+button{
+    padding: 20px 40px;
+    background-color: rgb(191, 250, 194);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    border-color: rgb(114, 250, 114);
+    border-radius: 5px;
+}
+
+
+.card{
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgb(111, 255, 111);
+    border-radius: 30px;
+    background-color: rgba(112, 218, 80, 0.801);
+}

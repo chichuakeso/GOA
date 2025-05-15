@@ -80,10 +80,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transition: 0.3s;
-}
-#intro:hover{
-    transform: scale(1.1);
 }
 
 #pics{
@@ -102,10 +98,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    transition: 0.3s;
-}
-#qualities:hover{
-    transform: scale(1.1);
 }
 
 #vc{
@@ -114,12 +106,8 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    transition: 0.3s;
 }
 
-#vc:hover{
-    transform: scale(1.1);
-}
 
 #p1{
     background-color: rgb(111, 177, 81);
