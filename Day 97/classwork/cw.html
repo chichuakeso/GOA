@@ -10,6 +10,29 @@
 <body>
     <header>
         <img src="./Amazon-logo.png" alt="">
+
+        <div class="account">
+            <div class="account-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="account-text">
+                <p>Account</p>
+                <p>Sign In</p>
+            </div>
+        </div>
+
+        <div class="logged-in">
+            <div class="logged">
+                <div class="account-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <div class="account-text">
+                <p id="name"></p>
+                <p id="log-out">Log Out</p>
+            </div>
+        </div>
     </header>
     <br><br><br>
     <main>
@@ -39,8 +62,8 @@
                 <div class="option-features">
                     <h3>Features</h3>
                     <div>
-                        <button>Time</button>
-                        <button>Heart Rate</button>
+                        <button id="time">Time</button>
+                        <button id="heart">Heart Rate</button>
                     </div>
                 </div>
 
@@ -48,6 +71,87 @@
             </section>
         </section>
     </main>
+    <div id="blur"></div>
+    <div id="register-log">
+        <div class="register-log-container">
+            <div class="register form">
+                <div class="register-log-header">
+                    <h2>Register</h2><br>
+                </div>
+                <form action="">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" name="name" required><br>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" placeholder="Email" name="email" required><br>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" name="pass" required><br>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="RePassword" name="rePass" required><br>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+                <br><p>Already have an account? <span id="login">Log in</span></p>
+            </div>
+            
+            <div class="login form">
+                <div class="register-log-header">
+                    <h2>Log in</h2><br>
+                </div>
+                <form action="">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" name="email" placeholder="Email" required><br>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="pass" placeholder="Password" required><br>
+                    </div>
+                    <button type="submit">Log In</button>
+                </form>
+                <br><p>Dont have an account? <span id="regist">Register</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="buy">
+        <div class="buy-menu">
+            <div class="buy-menuheader">
+                <h2>Buy</h2><br>
+            </div>
+            <form action="">
+                <div>
+                    <i class="fa-solid fa-credit-card"></i>
+                    <input type="text" placeholder="Credit Card Number" name="cardNumb" required><br>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="number" placeholder="CVS" name="cvs" required><br>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name" name="name" required><br>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <input type="tel" placeholder="Mobile Number" name="phoneNumb" required><br>
+                </div>
+
+                <button class="enter-card" type="submit">Buy</button>
+            </form>
+            <i class="fa-solid fa-xmark" id="buy-close"></i>
+
+        </div>
+    </div>
 
     <script src="cw.js"></script>
 </body>
