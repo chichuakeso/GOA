@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 4) შექმენით 3 ობიექტი, შემდეგ შექმენით ახალი ობიექტი, სადაც ჩააკოპირებთ სამივე მათგანს.(გამოიყენეთ spread ოპერატორი)
+
+        let one = {
+            name: "sua",
+            age: 22,
+            height: 150
+        }
+        let two = {
+            name: "mizi",
+            age: 20,
+            height: 160
+        }
+        let three = {
+            name: "ivan",
+            age: 21,
+            height: 180
+        }
+        let all = {...one,...two,...three}
+        console.log(all)
+    </script>
+</body>
+</html>
